@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* SECTION 1 */
+
+.section-1{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("Img/Back-1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.section-1 h3{
+    font-size: 3.6rem;
+}
+.section-1 p{
+    font-size: 1.2rem;
+    max-width: 70%;
+    text-align: center;
+}
+
+/* SECTION 2 */
+
+.section-2{
+    background: linear-gradient(rgb(40, 39, 39),#000);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.section-2 .col-1{
+    background: url("Img/Deck-1.jpg");
+    height: 80vh;
+    width: 35%;
+    background-size: cover;
+    background-position: center;
+    padding: 5%;
+    transition: .5s;
+}
+.section-2 .col-1:hover{
+    transform: scale(1.1);
+}
+.section-2 .col-2{
+    height: 100vh;
+    width: 50%;
+    padding: 6%;
+}
+.section-2 .col-2 h3{
+    font-size: 2.8rem;
+}
+.section-2 .col-2 p{
+    font-size: 1.2rem;
+    margin-top: 3.3rem;
+}
+
+/* SECTION 3 */
+
+.section-3{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url("Img/Back-2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.section-3 .col-1{
+    width: 60%;
+    position: relative;
+    top: 150px;
+    left: 50px;
+
+}
+.section-3 .col-1 h3{
+    font-size: 2.8rem;
+}
+.section-3 .col-1 p{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+/* SECTION 4 */
+
+.section-4{
+    background: linear-gradient(rgb(40, 39, 39),#000);
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-4 h3{
+    color: orange;
+    font-size: 3.1rem;
+    margin-bottom: 10rem;
+}
+.section-4 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-4 .box .boxes{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3rem;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-4 .box .boxes h2{
+    color: orange;
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+}
+.section-4 .box .boxes p{
+    color: white;
+    font-size: 1rem;
+}
+
+/* SECTION 5 */
+
+.section-5{
+    background: linear-gradient(rgb(2, 2, 2),rgb(21, 21, 21));
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.section-5 .col-1{
+    height: 100vh;
+    width: 50%;
+    padding: 6%;
+}
+.section-5 .col-1 h3{
+    font-size: 2.8rem;
+}
+.section-5 .col-1 p{
+    font-size: 1.2rem;
+    margin-top: 3.3rem;
+}
+.section-5 .col-2{
+    background: url("Img/Deck-2.jpg");
+    height: 80vh;
+    width: 35%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* SECTION 6 */
+
+.section-6{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Img/Back-3.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.section-6 h3{
+    font-size: 3.2rem;
+}
+
+.section-6 .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-6 .form input{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 15px;
+    width: 40vw;
+    height: 7vh;
+    padding: 5%;
+    font-size: 1.2rem;
+    color: white;
+}
+.section-6 .form input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.section-6 .form button{
+    width: 8vw;
+    height: 5vh;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(255, 193, 78);
+    border: 0;
+    cursor: pointer;
+}
+/* RESPONSIVE */
+
+@media screen and (max-width: 1440px) {
+    html{
+        font-size: 85%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    html{
+        font-size: 75%;
+    }
+    .section-6 .form input{
+        width: 60vw;
+    }
+    .section-6 .form button{
+        width: 15vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 65%;
+    }
+    .section-4 .box .boxes{
+        padding: 2rem;
+    }
+    .section-6 .form input{
+        width: 70vw;
+    }
+    .section-6 .form button{
+        width: 15vw;
+    }
+}
+@media screen and (max-width: 425px) {
+    html{
+        font-size: 55%;
+    }
+    .section-2{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .section-2 .col-1{
+        margin-top: 2.6rem;
+        height: 70vh;
+        width: 60%;
+    }
+    .section-2 .col-2{
+        margin-top: 2.6rem;
+        width: 80%;
+    }
+    .section-4 .box .boxes{
+        padding: 1rem;
+    }
+    .section-5{
+        flex-direction: column;
+        height: 90vh;
+    }
+    .section-5 .col-1{
+        /* margin-bottom: 2.6rem; */
+        height: 70vh;
+        width: 90%;
+    }
+    .section-5 .col-2{
+        margin-bottom: 2.6rem;
+        width: 80%;
+    }
+    .section-6 .form button{
+        width: 25vw;
+    }
+
+}
+@media screen and (max-width: 375px) {
+    html{
+        font-size: 45%;
+    }
+    .section-2{
+        height: 90vh;
+    }
+}
+@media screen and (max-width: 320px) {
+    html{
+        font-size: 35%;
+    }
+    .section-2{
+        height: 70vh;
+    }
+}
